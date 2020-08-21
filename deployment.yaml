@@ -28,7 +28,7 @@ spec:
     spec:
       containers:
       - name: "web"
-        image: us.icr.io/devops-gse-poc/devops-demo-bluecompute-web:421969b6853520bed33e1b38b4f7134766ac672b
+        image: us.icr.io/devops-gse-poc/devops-demo-bluecompute-web:65621c494da3d5a3f7b1eff97c1f14bb40ed2f6b
         imagePullPolicy: "Always"
         volumeMounts:
         - name: config-volume
